@@ -6,12 +6,12 @@ public class MainSpeed {
 
 	public static void main(String[] args) {
 		
-		 Scanner sc = new Scanner(System.in);
-		 System.out.println("Kindly enter the speed");
-		 double speedKph = sc.nextDouble();
+	     Scanner sc = new Scanner(System.in);
+	     System.out.println("Kindly enter the speed");
+	     double speedKph = sc.nextDouble();
 				 
-		 SpeedConverter speedConverter = new SpeedConverter();
-		 long speedMph = speedConverter.accessSpeed(speedKph);
+	     SpeedConverter speedConverter = new SpeedConverter();
+	     long speedMph = speedConverter.accessSpeed(speedKph);
 		 
 	     if(speedMph != -1) {
 	    	 
